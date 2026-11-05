@@ -1,0 +1,19 @@
+:root {
+    --bg-black: #121212;
+    --gold-accent: #d4af37;
+    --text-white: #ffffff;
+    --card-bg: #1e1e1e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-black);
+    color: var(--text-white);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
