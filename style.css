@@ -180,3 +180,51 @@ body {
     color: #ccc;
     margin-bottom: 30px;
 }
+
+.vybavenie-sekcia {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: var(--bg-black);
+}
+
+.vybavenie-sekcia h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: var(--text-white);
+    letter-spacing: 1px;
+}
+
+.vybavenie-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.vybavenie-veci {
+    background-color: #1a1a1a;
+    border: 1px solid #252525;
+    padding: 40px 30px;
+    width: 350px;
+    border-radius: 8px;
+    text-align: left;
+    transition: border-color 0.3s ease;
+}
+
+.vybavenie-veci:hover {
+    border-color: var(--gold-accent);
+}
+
+.vybavenie-veci h3 {
+    font-size: 20px;
+    color: var(--gold-accent);
+    margin-bottom: 15px;
+}
+
+.vybavenie-veci p {
+    font-size: 14px;
+    color: #bbb;
+    line-height: 1.5;
+}
